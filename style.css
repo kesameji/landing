@@ -25,7 +25,7 @@ CSS STRUCTURE:
 body {
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
-  --heading-color: #111;
+  --heading-color: #d6545f;
   --heading-line-height: 1.24;
 
   --swiper-theme-color: #8C907E;
@@ -35,32 +35,33 @@ body {
   --bs-body-font-size: 18px;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #8f8f8f;
+  --bs-body-color: #fff4f5;
   --bs-body-color-rgb: 143, 143, 143;
 
   --bs-primary: #8C907E;
   --bs-secondary: #6c757d;
-  --bs-black: #111;
-  --bs-light: #F1F1F0;
-  --bs-dark: #212529;
+  --bs-black: #29292a;
+  --bs-light: #f0505a;
+  --bs-dark: #0d2d3c;
   --bs-gray: #9aa1a7;
   --bs-gray-dark: #51565b;
 
-  --bs-primary-rgb: 140, 144, 126;
+  --bs-primary-rgb: 41, 41, 42;
   --bs-secondary-rgb: 108, 117, 125;
-  --bs-black-rgb: 17, 17, 17;
-  --bs-light-rgb: 241, 241, 240;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-black-rgb: 41, 41, 42;
+  --bs-light-rgb: 97, 161, 183;
+  --bs-dark-rgb: 13, 45, 60;
 
-  --bs-link-color: #111;
-  --bs-link-color-rgb: 17, 17, 17;
+  --bs-link-color: #d6545f;
+  --bs-link-color-rgb: 214, 84, 95;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #111;
-  --bs-link-hover-color-rgb: 17, 17, 17;
+  --bs-link-hover-color: #f0505a;
+  --bs-link-hover-color-rgb: 240, 80, 90;
 }
 
 body {
   letter-spacing: 0.03rem;
+  background-color: #29292a;
 }
 
 h1,
@@ -146,6 +147,8 @@ a {
   /* width: 98%; */
   max-width: 1800px;
 }
+.container{}
+
 
 /* Dropdown */
 .dropdown-menu {
@@ -616,7 +619,7 @@ a {
 /** Search Popup
 --------------------------------------------------------------*/
 .search-popup {
-  background-color: #fff;
+  background-color: #161617;
   position: fixed;
   left: 0;
   top: 0;
